@@ -2,7 +2,7 @@ name: Daily Telegram Message
 
 on:
   schedule:
-    - cron: '0 14 * * *'  # ساعت 18:00 به وقت تهران (14:00 UTC)
+    - cron: '45 13 * * *'  # ساعت 18:15 به وقت تهران (13:45 UTC)
 
 jobs:
   send-message:
