@@ -3,6 +3,7 @@ name: Daily Telegram Message
 on:
   schedule:
     - cron: '45 13 * * *'  # ساعت 18:15 به وقت تهران (13:45 UTC)
+  workflow_dispatch:  # اضافه کردن این خط برای فعال‌سازی اجرای دستی
 
 jobs:
   send-message:
